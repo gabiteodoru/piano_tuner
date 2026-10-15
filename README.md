@@ -1,6 +1,6 @@
 # Zoom spectrum
 
-A live, zoomed-in spectrum viewer for tuning a piano by ear and by eye. It shows the frequency spectrum of the microphone signal in a narrow band around one note, with the long analysis windows needed to separate the individual strings of a unison. Target frequencies can come from plain equal temperament or from a tuning curve calculated by the [Entropy Piano Tuner](https://piano-tuner.org) (EPT) for your own piano.
+A live, zoomed-in spectrum viewer for tuning a piano by ear and by eye. It shows the frequency spectrum of the microphone signal in a narrow band around one note, with the long analysis windows needed to separate the individual strings of a unison. Target frequencies can come from plain equal temperament or from a tuning curve calculated by the [Entropy Piano Tuner](https://github.com/levush/Entropy-Piano-Tuner) (EPT) for your own piano.
 
 The idea is an old one: zoom into a frequency range, lengthen the FFT window until the peaks of all strings of one note are visible, and tune each string against a marker at its target frequency.
 
